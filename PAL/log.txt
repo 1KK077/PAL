@@ -1,0 +1,52 @@
+2023-10-19 21:30:28,372 {'batch_size': 120,
+ 'bg_kl': True,
+ 'center': False,
+ 'center_cluster': False,
+ 'classification': True,
+ 'color_jitter': False,
+ 'data_root': '../dataset/RegDB',
+ 'dataset': 'regdb',
+ 'decompose': True,
+ 'distalign': True,
+ 'drop_last_stride': True,
+ 'eval_interval': 5,
+ 'fp16': True,
+ 'image_size': (256, 128),
+ 'k_size': 10,
+ 'log_period': 20,
+ 'lr': 0.00035,
+ 'lr_step': [60, 100],
+ 'margin': 0.4,
+ 'modality_attention': 0,
+ 'mutual_learning': False,
+ 'num_cam': 2,
+ 'num_epoch': 0,
+ 'num_id': 206,
+ 'num_parts': 6,
+ 'optimizer': 'adam',
+ 'p_size': 12,
+ 'padding': 10,
+ 'pattern_attention': False,
+ 'prefix': 'RegDB',
+ 'random_crop': True,
+ 'random_erase': True,
+ 'random_flip': True,
+ 'rerank': True,
+ 'resume': '',
+ 'sample_method': 'identity_random',
+ 'sm_kl': True,
+ 'start_eval': 115,
+ 'triplet': True,
+ 'update_rate': 0.2,
+ 'wd': 0.005,
+ 'weight_KL': 2.5,
+ 'weight_sep': 0.5,
+ 'weight_sid': 0.5}
+2023-10-19 21:30:31,865 Engine run starting with max_epochs=0
+2023-10-19 21:30:31,865 Engine run starting with max_epochs=1
+2023-10-19 21:30:35,016 Epoch[1] Complete. Time taken: 00:00:03
+2023-10-19 21:30:35,017 Engine run complete. Time taken 00:00:03
+2023-10-19 21:30:35,026 Engine run starting with max_epochs=1
+2023-10-19 21:30:36,913 Epoch[1] Complete. Time taken: 00:00:01
+2023-10-19 21:30:36,914 Engine run complete. Time taken 00:00:01
+2023-10-19 21:30:40,123 Engine run is terminating due to exception: 
